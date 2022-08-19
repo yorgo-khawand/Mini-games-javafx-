@@ -1,0 +1,69 @@
+#loadpane{
+	-fx-background-image:url("images/hockey.jpg") ;
+	-fx-background-repeat:no-repeat ;
+	-fx-background-size:800 600;
+}
+#playgamebtn,#startbtn{
+	-fx-background-color:red;
+	-fx-font-size:14;
+	-fx-text-fill:white;
+	-fx-font-family:arial;
+	-fx-font-weight:bold;
+}
+#exitbtn{
+	-fx-background-color:blue;
+	-fx-font-size:14;
+	-fx-text-fill:white;
+	-fx-font-family:arial;
+	-fx-font-weight: bold;
+}
+#gameName,#finishText{
+	-fx-font-size:35px;
+	-fx-font-style:italic ;
+	-fx-fill:blue;
+}
+#gameroot{
+		-fx-background-image:url("images/hockey2.png") ;
+		-fx-background-repeat:no-repeat ;
+		-fx-background-position:center center;
+	    -fx-background-size:830 690;
+}
+#player1,#player2{
+	-fx-font-size:30;
+}
+#tic_tac_toe{
+	-fx-background-image:url("images/tictactoe.png"); 
+	-fx-background-size:contain ;
+}
+#hockey_game{
+		-fx-background-image:url("images/hockeyimage.jpg"); 
+	    -fx-background-size:cover ;
+}
+.root{
+	-fx-background-image:url("images/backgroundimg.jpg") ;
+	-fx-background-repeat:no-repeat ;
+	-fx-background-size:800 600;
+	
+}
+#xo_game{
+	-fx-background-image:url("images/download.jfif") ;
+	-fx-background-repeat:no-repeat ;
+	-fx-background-size:800 600;	
+}
+.button{
+  -fx-background-color: #981100;
+  -fx-background-radius: 8, 7, 6;
+  -fx-background-insets: 0, 1, 2;
+  -fx-text-fill: white;
+  -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.button:hover{
+	-fx-background-color: linear-gradient(to right, red, blue);
+}
+#winnerText{
+	-fx-font-size:32px;
+	-fx-font-family:"Arial Black";
+	-fx-fill: linear-gradient(to right, red, blue);
+	-fx-effect:innershadow(three-pass-bpx,rgba(0,0,0,0.7),6,0.0,0,2);
+}

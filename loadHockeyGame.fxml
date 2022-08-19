@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.text.Text ?>
+<VBox fx:id="loadpane" spacing="20" fx:controller="application.HockeyGame_Controller" alignment="CENTER" xmlns:fx="http://javafx.com/fxml/1">
+<children>
+    <Text fx:id="gameName" text="HOCKEY GAME"  />
+	<Button fx:id="playgamebtn"   text="play game" onAction="#switchTogame" />	  
+	<Button fx:id="exitgame"  text = "exit game" onAction="#switchTowindow"/>
+	</children>
+</VBox>

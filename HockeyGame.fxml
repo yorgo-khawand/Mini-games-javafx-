@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Text ?>
+	
+<AnchorPane fx:id="gameroot"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HockeyGame_Controller">
+	<children>
+	<Circle fx:id="ball" fill="red" radius="15" centerX="415" centerY="310" />
+	<Rectangle fx:id="player1" fill="red" width="10" height="100" x="200" y="300"/>
+	<Rectangle fx:id="player2" fill = "blue" width="10" height ="100" x = "600" y="300"/>
+	<Rectangle fx:id="goal1"   fill ="red" width="5"  height="100" x="10" y ="250"/>
+	<Rectangle fx:id="goal2"   fill="blue" width="5"   height="100" x="790" y="250"/>
+    <Text fx:id="player1_score" fill="red" text="player1: " x="300" y="20"/>
+	<Text fx:id="player2_score" text="player2:" fill ="blue"  x="500"  y="20"/>
+	<Button fx:id="exitbtn"  text="exit game" layoutX="100" layoutY="5"  onAction="#switchToLoading" />	
+	<Button fx:id="startbtn"  layoutX="650" layoutY="5" text=" start game" onAction="#startGame" />	
+	<Text fx:id="finishText"  layoutX="250" layoutY="300" text=" "/>
+	</children>
+</AnchorPane>
+

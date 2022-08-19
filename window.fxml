@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox spacing ="20"  fx:controller="application.Window_controller" xmlns:fx="http://javafx.com/fxml/1">
+	<Button fx:id="tic_tac_toe" prefHeight="75.0" prefWidth="75.0"  onAction="#loadTicTacToe"></Button> 
+	<Button fx:id="hockey_game" prefHeight="75.0" prefWidth="75.0"  onAction="#loadHockeyGame"></Button>
+</VBox>
+
